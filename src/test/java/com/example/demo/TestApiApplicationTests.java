@@ -1,14 +1,24 @@
 package com.example.demo;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
-class TestApiApplicationTests {
+import com.example.demo.controller.CustomerController;
 
+public class TestApiApplicationTests {
+
+	@Autowired
+	CustomerController controller = new CustomerController();
+	
 	@Test
-	void contextLoads() {
-		assertTrue( false );
+	void test() {
+		
+		String responseString = controller.hello("World");
+		assertEquals("Hello, World", responseString);
 	}
+
 
 }

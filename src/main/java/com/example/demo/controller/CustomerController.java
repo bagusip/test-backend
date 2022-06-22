@@ -82,4 +82,8 @@ public class CustomerController {
 			return new ResponseEntity<HttpStatus>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
+	
+	public String hello(String name) {
+		return String.format("Hello, %s", name);
+	}
 }
