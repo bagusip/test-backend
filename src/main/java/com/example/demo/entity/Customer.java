@@ -15,7 +15,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Entity
+@Entity(name="tbl_customer")
 @Table(name="tbl_customer")
 @Setter
 @Getter

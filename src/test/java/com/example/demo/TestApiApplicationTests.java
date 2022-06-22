@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 //import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import java.util.List;
 
@@ -32,19 +33,37 @@ public class TestApiApplicationTests {
 		customerRepo.save(c);
 		assertNotNull(customerRepo.findById(2L).get());
 	}
-	
+
 	@Test
 	public void testReadAllCustomer() {
 		List<Customer> list = customerRepo.findAll();
 		assertThat(list).size().isGreaterThan(0);
-		
+
 	}
-	
+
 	@Test
 	public void testReadCustomer() {
-		Customer customer = customerRepo.findById(2l).get();
+		Customer customer = customerRepo.findById(2L).get();
 		assertEquals("tester", customer.getName());
 	}
 
+	@Test
+	public void testUpdate() {
+		Customer customer = customerRepo.findById(3L).get();
+		customer.setAge(33L);
+		customerRepo.save(customer);
+		assertNotEquals(34L, customerRepo.findById(3L).get().getAge());
+	}
+
+	@Test
+	public void testDelete() {
+//		Customer c = new Customer();
+//		c.setName("testing_delete");
+//		c.setAge(4L);
+//		c.setLocation("location");
+//		customerRepo.save(c);
+		customerRepo.deleteById(12L);
+		assertThat(customerRepo.existsById(12L)).isFalse();
+	}
 
 }
