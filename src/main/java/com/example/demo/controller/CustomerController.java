@@ -20,6 +20,7 @@ import com.example.demo.repository.ICustomerRepo;
 
 @RestController
 public class CustomerController {
+	
 	@Autowired
 	ICustomerRepo customerRepo;
 	
