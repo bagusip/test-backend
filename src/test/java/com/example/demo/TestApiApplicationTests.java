@@ -9,7 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import java.util.List;
 
 import org.apache.naming.java.javaURLContextFactory;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -18,23 +21,26 @@ import com.example.demo.entity.Customer;
 import com.example.demo.repository.ICustomerRepo;
 
 @SpringBootTest
+@TestMethodOrder(OrderAnnotation.class)
 public class TestApiApplicationTests {
 
 	@Autowired
 	ICustomerRepo customerRepo;
 
 	@Test
+	@Order(1)
 	public void testCreate() {
 		Customer c = new Customer();
-		c.setId(2L);
+		c.setId(15L);
 		c.setName("tester");
 		c.setAge(4L);
 		c.setLocation("Senayan");
 		customerRepo.save(c);
-		assertNotNull(customerRepo.findById(2L).get());
+		assertNotNull(customerRepo.findById(15L).get());
 	}
 
 	@Test
+	@Order(2)
 	public void testReadAllCustomer() {
 		List<Customer> list = customerRepo.findAll();
 		assertThat(list).size().isGreaterThan(0);
@@ -42,28 +48,26 @@ public class TestApiApplicationTests {
 	}
 
 	@Test
+	@Order(3)
 	public void testReadCustomer() {
-		Customer customer = customerRepo.findById(2L).get();
+		Customer customer = customerRepo.findById(15L).get();
 		assertEquals("tester", customer.getName());
 	}
 
 	@Test
+	@Order(4)
 	public void testUpdate() {
-		Customer customer = customerRepo.findById(3L).get();
+		Customer customer = customerRepo.findById(15L).get();
 		customer.setAge(33L);
 		customerRepo.save(customer);
-		assertNotEquals(34L, customerRepo.findById(3L).get().getAge());
+		assertNotEquals(34L, customerRepo.findById(15L).get().getAge());
 	}
 
 	@Test
+	@Order(5)
 	public void testDelete() {
-//		Customer c = new Customer();
-//		c.setName("testing_delete");
-//		c.setAge(4L);
-//		c.setLocation("location");
-//		customerRepo.save(c);
-		customerRepo.deleteById(12L);
-		assertThat(customerRepo.existsById(12L)).isFalse();
+		customerRepo.deleteById(15L);
+		assertThat(customerRepo.existsById(15L)).isFalse();
 	}
 
 }
