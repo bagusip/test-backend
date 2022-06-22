@@ -92,10 +92,9 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8084/manager/text</url>
-					<server>TomcatServer</server>
-<!-- 					<username>*yourtomcatusername*</username>
-					<password>*yourtomcatpassword*</password> -->
+					<path>/</path>
+					<port>8084</port>
+					<finalName>executeable.jar</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
