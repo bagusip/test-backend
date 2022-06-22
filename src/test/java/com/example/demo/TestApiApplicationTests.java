@@ -1,8 +1,11 @@
 package com.example.demo;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 //import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.List;
 
 import org.apache.naming.java.javaURLContextFactory;
 import org.junit.jupiter.api.Test;
@@ -20,7 +23,7 @@ public class TestApiApplicationTests {
 	ICustomerRepo customerRepo;
 
 	@Test
-	void testCreate() {
+	public void testCreate() {
 		Customer c = new Customer();
 		c.setId(2L);
 		c.setName("tester");
@@ -28,6 +31,19 @@ public class TestApiApplicationTests {
 		c.setLocation("Senayan");
 		customerRepo.save(c);
 		assertNotNull(customerRepo.findById(2L).get());
+	}
+	
+	@Test
+	public void testReadAllCustomer() {
+		List<Customer> list = customerRepo.findAll();
+		assertThat(list).size().isGreaterThan(0);
+		
+	}
+	
+	@Test
+	public void testReadCustomer() {
+		Customer customer = customerRepo.findById(2l).get();
+		assertEquals("tester", customer.getName());
 	}
 
 
