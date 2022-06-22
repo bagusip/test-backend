@@ -17,7 +17,7 @@ public class TestApiApplicationTests {
 	void test() {
 		
 		String responseString = controller.hello("World");
-		assertEquals("Hello, World", responseString);
+		assertEquals("Hello, Bagus", responseString);
 	}
 
 
