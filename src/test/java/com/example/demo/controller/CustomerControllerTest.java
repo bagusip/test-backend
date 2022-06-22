@@ -8,7 +8,7 @@ class CustomerControllerTest {
 
 	@Test
 	void test() {
-		fail("Not implemented yet.");
+		assertTrue( false );
 	}
 
 }
