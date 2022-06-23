@@ -26,6 +26,9 @@ public class TestApiApplicationTests {
 
 	@Autowired
 	ICustomerRepo customerRepo;
+	
+	@Autowired
+	CustomerController controller = new CustomerController();
 
 	@Test
 	@Order(1)
@@ -68,6 +71,14 @@ public class TestApiApplicationTests {
 	public void testDelete() {
 		customerRepo.deleteById(15L);
 		assertThat(customerRepo.existsById(15L)).isFalse();
+	}
+	
+	@Test
+	@Order(6)
+	void test() {
+		
+		String responseString = controller.hello("World");
+		assertEquals("Hello, Bagus", responseString);
 	}
 
 }
