@@ -73,12 +73,4 @@ public class TestApiApplicationTests {
 		assertThat(customerRepo.existsById(15L)).isFalse();
 	}
 	
-	@Test
-	@Order(6)
-	void test() {
-		
-		String responseString = controller.hello("World");
-		assertEquals("Hello, Bagus", responseString);
-	}
-
 }

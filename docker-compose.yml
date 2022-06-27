@@ -1,0 +1,30 @@
+version: '3.1'
+services:
+  app:
+    container_name: springboot-postgresql
+    image: springboot-postgresql
+    build: .
+    ports:
+      - 8000:8000
+    depends_on:
+        postgresqldb:
+         condition: service_healthy
+    environment:
+      - spring.datasource.url=jdbc:postgresql://postgresqldb:5432/spring_first
+      - spring.datasource.username=postgres
+      - spring.datasource.password=password
+      - spring.jpa.show-sql=true
+      - spring.jpa.hibernate.ddl-auto=create
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=spring_first
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
