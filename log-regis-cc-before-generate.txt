@@ -1,0 +1,245 @@
+*******************************************
+[5/15/25 14:45:32:117 WIB] 00000227 SystemOut     O ############## Calling Database URL ################# jdbc:db2://10.230.81.122:50001/BII
+[5/15/25 14:45:32:121 WIB] 00000227 SystemOut     O ############## Calling Database URL ################# jdbc:db2://10.230.81.122:50001/BII
+[5/15/25 14:45:32:122 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.122 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB Timeout: 180000ms
+[5/15/25 14:45:32:122 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.122 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB Request Context: timeout
+[5/15/25 14:45:32:122 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.122 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB URL Endpoint: http://10.235.66.96:7800/AccountServices
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - <<<<<<<<<<<<<<<<<   Header   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Header Version: 3.0
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Message ID: 05BBB25E-98B6-4FCA-BAF8-C91F34C3240F
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Branch Code: 270
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Channel ID: M2U
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Client Supervisor ID: 0000
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Client UserID: 0000
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Reference No: F514AE3C-5192-47A0-927D-579EECF9D41F
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Sequence No: 8495
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Transaction Date: 15-05-2025
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Transaction Time: 14:45:32
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - <<<<<<<<<<<<<<<<<   Request   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 3562850290312034
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.127 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Url: wsjar:file:/IBM/WebSphere/AppServer/profiles/AppSrv02/installedApps/STGAPPM2U02Cell01/bii_RestfulRib_war.ear/bii_RestfulRib.war/WEB-INF/lib/bii-esb-1.0-BII-mobile-SNAPSHOT.jar!/wsdl/AccountServices.wsdl
+[5/15/25 14:45:32:127 WIB] 00000227 SystemOut     O Invoking web service operation
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O Getting response code
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O End of response
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - <<<<<<<<<<<<<<<<<   Response   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Response Code: 00
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Response Description: success
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - GCIF No: G202598876
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - CIF Type: 1
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Customer Name: NADINE RAHAYU BAHUWIRYA FIRMANSYAH
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Birth Date: 11/08/1982
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Salutation:
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Gender:
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Mobile No: 08441234026
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Mobile No 2:
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Email: m2u.revamp3@maylab.net
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Address 1: KAAA KELAAAAA PEJJAAA TEWWAA
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Address 2: KAAA KELAAAAA PEJJAAA TEWWAA RT. 111/RW. 222
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Address 3: KEL. GAMBIR
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Zip Code: 10110
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Resident Phone No: 111-111111
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Customer No: 1020030000027210
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - CIF No: 0012115324
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Account Record Type ###
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Account No: 8701911722
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Account Currency: 016
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Branch Code: 701
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Appl Code: IM
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Product Code: 319
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status:
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Relation Code: 01
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Acc Hand Phone 1: 08441234026
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Acc Hand Phone 2:
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564100
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 4
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564118
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 4
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 3562850290312034
+[5/15/25 14:45:32:327 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.327 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564076
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564209
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564316
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564126
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 3562850290312109
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 1
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - ### Credit Card Record Type ###
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Credit Card No: 4047760026564068
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.a.ESBAccountListServices - Status: 4
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - <<<<<<<<<<<<<<<<<   Performance Calculate Result   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - Class: {http://www.bankbii.com/AccountServices/}AccountServices
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - Start Time: Thu May 15 14:45:32 WIB 2025
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - End Time: Thu May 15 14:45:32 WIB 2025
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - 05BBB25E-98B6-4FCA-BAF8-C91F34C3240F Time Used to complete ESBAccountListServices (in miliseconds): 202
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O isMockup =false
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB Timeout: 180000ms
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB Request Context: timeout
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - ESB URL Endpoint: http://10.235.83.15:8089/v1/sec2u/tac
+[5/15/25 14:45:32:328 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.328 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - <<<<<<<<<<<<<<<<<   Header   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:336 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.336 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Message ID: 8F4812E4-E181-49BD-8306-F3541CD7928A
+[5/15/25 14:45:32:336 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.336 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Branch Code: 270
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Channel ID: M2U
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Client Supervisor ID: 0000
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Client UserID: 0000
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Reference No: F514AE3C-5192-47A0-927D-579EECF9D41F
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Sequence No: 8495
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Transaction Date: 15-05-2025
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Transaction Time: 14:45:32
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - <<<<<<<<<<<<<<<<<   Request   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Customer Name: etbaguscc02
+[5/15/25 14:45:32:337 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.337 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Customer ID: 1020030000027210
+[5/15/25 14:45:32:337 WIB] 00000227 WSChannelFram A   CHFW0019I: The Transport Channel Service has started chain HttpOutboundChain:10.235.83.15:8089.
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - <<<<<<<<<<<<<<<<<   Response   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Response Code: 00
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - Response Description: null
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.b.e.w.s.i.t.ESBRegisterSMSTokenServices - VToken: VDP0382514
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - <<<<<<<<<<<<<<<<<   Performance Calculate Result   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - Class: {http://www.bankbii.com/TokenServices/}TokenServices
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - Start Time: Thu May 15 14:45:32 WIB 2025
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - End Time: Thu May 15 14:45:32 WIB 2025
+[5/15/25 14:45:32:710 WIB] 00000227 SystemOut     O 2025-05-15 14:45:32.710 [WebContainer : 5] INFO  c.i.e.s.i.WsIntegrationService - 8F4812E4-E181-49BD-8306-F3541CD7928A Time Used to complete ESBRegisterSMSTokenServices (in miliseconds): 382
+[5/15/25 14:45:32:866 WIB] 000000ed SystemOut     O
+*******************************************
+amount: 0
+browser:
+channel: null
+cifNo: null
+encryptedUserId: null
+favTransaction: false
+fromAccountNumber:
+locale: id
+paymentFrequencyCode:
+remoteIPAddress: null
+restSMSService: null
+restfulVersion:
+selectedDate:
+selectedDateTermination:
+selectedMonth:
+selectedMonthTermination:
+selectedYear:
+selectedYearTermination:
+serviceInfoBean: null
+serviceInfoCode: null
+serviceInfoName: null
+sessionId: null
+smsServiceBean: null
+tac: null
+tacAttemptCount: 0
+tacBean: net.penril.ib.middle.service.common.TACBean@4cb2833a
+tacRequired: false
+tacSentDateTime: null
+tacSentIBDateTime: null
+tacValue: null
+transactionID: null
+userAgent: null
+userAlias: KL4SxqUVzoYR0cWlp3AQCmyxol1M01MhMXtms57DbrJ2aByKbr/sZLa2xw1by8K70EZujy1rLLGNIBMaoqXN0hCOTdGoFOuqs/S6FfGE1WQqV9K/s1CwBXgy/35V1vnWZsAZFQib59+OCPCqG9OdIxw71gw3bAx6i2yXi964kUE=
+userId: 0
+userTacPhone: null
+*******************************************
+[5/15/25 14:45:32:866 WIB] 000000ed SystemOut     O [15/05/2025] [14:45:32:866] [INFO] [IBRegisterServices]:47 -
+*******************************************
+amount: 0
+browser:
+channel: null
+cifNo: null
+encryptedUserId: null
+favTransaction: false
+fromAccountNumber:
+locale: id
+paymentFrequencyCode:
+remoteIPAddress: null
+restSMSService: null
+restfulVersion:
+selectedDate:
+selectedDateTermination:
+selectedMonth:
+selectedMonthTermination:
+selectedYear:
+selectedYearTermination:
+serviceInfoBean: null
+serviceInfoCode: null
+serviceInfoName: null
+sessionId: null
+smsServiceBean: null
+tac: null
+tacAttemptCount: 0
+tacBean: net.penril.ib.middle.service.common.TACBean@4cb2833a
+tacRequired: false
+tacSentDateTime: null
+tacSentIBDateTime: null
+tacValue: null
+transactionID: null
+userAgent: null
+userAlias: KL4SxqUVzoYR0cWlp3AQCmyxol1M01MhMXtms57DbrJ2aByKbr/sZLa2xw1by8K70EZujy1rLLGNIBMaoqXN0hCOTdGoFOuqs/S6FfGE1WQqV9K/s1CwBXgy/35V1vnWZsAZFQib59+OCPCqG9OdIxw71gw3bAx6i2yXi964kUE=
+userId: 0
+userTacPhone: null
+*******************************************
+[5/15/25 14:45:32:868 WIB] 000000ed SystemOut     O ########## Retrieving next value for sequence: SEQ_TAC
+[5/15/25 14:45:32:886 WIB] 000000ed SystemOut     O ########## Last sequence value: 83765
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB Timeout: 180000ms
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB Request Context: timeout
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB URL Endpoint: http://10.235.83.15:8089/v1/sec2u/tac
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - <<<<<<<<<<<<<<<<<   Header   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Message ID: 189DFCC4-467E-477E-A4FE-73DFCFC0DE60
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Branch Code: 270
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Channel ID: M2U
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Client Supervisor ID: 0000
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Client UserID: 0000
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Reference No: M2U/123/2013
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Sequence No: 8495
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Transaction Date: 15-05-2025
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Transaction Time: 14:45:32
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - <<<<<<<<<<<<<<<<<   Request   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Transaction ID: 20250515000000083765
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Customer ID: 1020030000027210
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Challenge Field 1: 20250515144532
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Challenge Field 2: 20250515000000083765
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Challenge Field 3: 0
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Challenge Field 4: 0
+[5/15/25 14:45:32:887 WIB] 000000ed SystemOut     O 2025-05-15 14:45:32.887 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Challenge Field 5: 0
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - <<<<<<<<<<<<<<<<<   Response   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Response Code: 00
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - Response Description: null
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - <<<<<<<<<<<<<<<<<   Response   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBGenerateSMSTokenServices - generated TAC : ********
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - <<<<<<<<<<<<<<<<<   Performance Calculate Result   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - Class: {http://www.bankbii.com/TokenServices/}TokenServices
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - Start Time: Thu May 15 14:45:32 WIB 2025
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - End Time: Thu May 15 14:45:34 WIB 2025
+[5/15/25 14:45:34:750 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.750 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - 189DFCC4-467E-477E-A4FE-73DFCFC0DE60 Time Used to complete ESBGenerateSMSTokenServices (in miliseconds): 1863
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB Timeout: 180000ms
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB Request Context: timeout
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - ESB URL Endpoint: http://10.235.83.15:8089/v1/sec2u/tac
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - <<<<<<<<<<<<<<<<<   Header   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Message ID: 3BD1F77E-451D-42BA-9982-727CB705B838
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Branch Code: 270
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Channel ID: M2U
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Client Supervisor ID: 0000
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Client UserID: 0000
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Reference No: F514AE3C-5192-47A0-927D-579EECF9D41F
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Sequence No: 8495
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Transaction Date: 15-05-2025
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Transaction Time: 14:45:34
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - <<<<<<<<<<<<<<<<<   Request   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Hand Phone No: 628441234026
+[5/15/25 14:45:34:751 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.751 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Message: HATI2, jangan infokan TAC ke siapapun! TAC Anda: ******** utk First Time Logi , berlaku 10 menit sejak 15 May 2025 14:45:32 WIB.
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - <<<<<<<<<<<<<<<<<   Response   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Response Code: 0
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Response Description: Sms berhasil dikirim, Refno: 34026
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.b.e.w.s.i.t.ESBSendSMSTokenServices - Out: null
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - <<<<<<<<<<<<<<<<<   Performance Calculate Result   >>>>>>>>>>>>>>>>>>>
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - Class: {http://www.bankbii.com/TokenServices/}TokenServices
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - Start Time: Thu May 15 14:45:34 WIB 2025
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - End Time: Thu May 15 14:45:34 WIB 2025
+[5/15/25 14:45:34:888 WIB] 000000ed SystemOut     O 2025-05-15 14:45:34.888 [WebContainer : 2] INFO  c.i.e.s.i.WsIntegrationService - 3BD1F77E-451D-42BA-9982-727CB705B838 Time Used to complete ESBSendSMSTokenServices (in miliseconds): 137
